@@ -1,0 +1,12 @@
+# Mac
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Boek en ZIP-bestand
+A First Course in Mone Carlo Methods.pdf
+Project1_LabClass_Jorik_Fransen.zip
+project1_assignment.html
+project1_assignment_v2.html
