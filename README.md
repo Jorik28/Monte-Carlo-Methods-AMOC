@@ -11,7 +11,7 @@ and efficiency are assessed with R-hat and the effective sample size (ESS).
 
 ## The model
 
-The equilibrium condition is $\lambda = |a-y|\,y$, where $y$ is the rescaled
+The equilibrium condition is $\lambda = |a-y|\cdot y$, where $y$ is the rescaled
 salinity difference driving the circulation, $\lambda$ the forcing, and $a$ a
 temperature-difference threshold. The dynamics is a gradient flow with
 potential $V(y)$. With noise of strength $\sigma$, the stationary distribution
@@ -27,9 +27,9 @@ The project uses this model in two ways:
 ## Repository structure
 
 ```
-amoc_model.py   Potential V(y), equilibrium condition g(y), Newton solver y_eq
-samplers.py     Sampler library: random_walk_metropolis, mala, hmc,
-                r_hat, effective_sample_size
+amoc_model.py    Potential V(y), equilibrium condition g(y), Newton solver y_eq
+samplers.py      Sampler library: random_walk_metropolis, mala, hmc, r_hat, 
+		 effective_sample_size
 project_1.ipynb  Full analysis: validation, experiments, discussion
 ```
 
