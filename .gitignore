@@ -5,8 +5,7 @@
 __pycache__/
 *.pyc
 
-# Assignment and book
+# Book, assignment and ZIP
 A First Course in Monte Carlo Methods.pdf
-project1_assignment.html
-project1_assignment_v2.html
-project1_assignment_v3.html
+project1_assignment*.html
+*.zip
